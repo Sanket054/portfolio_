@@ -1,0 +1,278 @@
+ <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website - Sanket</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media.css" />
+    <link rel="icon" href="./Slogo.jpg" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="wrapper">
+      <div class="container">
+        <div class="navbar">
+          <div class="logo-container">
+            <img src="Slogo.jpg" alt="logo" class="logo" />
+            <div class="logo-text">
+              <h5>anket</h5>
+            </div>
+          </div>
+
+          <div class="nav-items" id="sidemenu">
+            <i class="ri-close-line" onclick="closeMenu()"></i>
+            <div style="--i: 1"><a href="#home">Home</a></div>
+            <div style="--i: 2"><a href="#about">About</a></div>
+            <div style="--i: 3"><a href="#skills">Skills</a></div>
+            <div style="--i: 4"><a href="#projects">Projects</a></div>
+            <div style="--i: 5"><a href="#contact">Contact</a></div>
+          </div>
+          <i class="ri-menu-line" onclick="openMenu()"></i>
+        </div>
+      </div>
+    </div>
+    <section id="home">
+      <div class="home-all">
+        <div class="home-sci">
+          <div>
+            <a
+              class="git-btn"
+              href="https://github.com/Sanket054"
+              target="_blank"
+            >
+              <i class="ri-github-line"></i
+            ></a>
+          </div>
+          <div>
+            <a
+              class="git-btn"
+              href="https://www.linkedin.com/in/sanket-gulhane-867a7818b/"
+              target="_blank"
+            >
+              <i class="ri-linkedin-box-fill"></i>
+            </a>
+          </div>
+         
+           
+        </div>
+        <div class="home-content">
+          <h1>Hi, I'm <span>Sanket Gulhane</span></h1>
+          <h3><span>Full-Stack </span> Developer</h3>
+
+          <p>
+            Versatile Full-Stack Developer with a strong foundation in frontend and backend technologies. Proficient in HTML, CSS, JavaScript, React, Node.js, Express, and databases like MongoDB and SQL. Skilled in designing and developing scalable web applications, ensuring seamless user experiences and efficient backend operations. Passionate about problem-solving, optimizing performance, and integrating APIs to build robust applications. Adept at working in agile environments and collaborating with cross-functional teams. Eager to leverage expertise in both frontend and backend development to create impactful solutions in a tech-driven landscape.
+          </p>
+          <button onclick="window.open('#contact')" class="button">
+            Hire Me!
+            <div class="hoverEffect">
+              <div></div>
+            </div>
+          </button>
+        </div>
+        <div class="home-img">
+          <div class="glowing-circle">
+            <span></span>
+            <span></span>
+            <div class="image">
+              <img src="./sanket jpg.jpg" alt="Sanket_profile" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+      <div class="container-2">
+        <div class="row">
+          <h1>About</h1>
+          <p>
+            Hello! 👋 I'm <span>Sanket Gulhane</span>,Asspiring Full Full-Stack Developer.
+            ALawys learning new to creating.My journey into the world of tech has been 
+            fueled by a deep curiosity for problem-solving and a love for Development.
+
+          <a
+            href="./SanketGulhane-FrontendDeveloper(React)-PPke.pdf"
+            class="Download-button"
+            download="Sanket Gulhane Resume"
+            ><i class="ri-download-cloud-2-line"></i
+            >Download Resume</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="container-3 row container-2">
+        <div class="heading"><h1>Skills</h1></div>
+
+        <div class="all-skills">
+          <div class="circle-skill">
+            <img src="python-logo.png" alt="python-logo" />
+          </div>
+          <div class="circle-skill">
+            <img src="html-logo.png" alt="html-logo" />
+          </div>
+          <div class="circle-skill">
+            <img src="css-logo.png" alt="css-logo" />
+          </div>
+          <div class="circle-skill">
+            <img src="c++logo.png" alt="" />
+          </div>
+        </div>
+
+        <!-- <div class="all-skills">
+          <div class="circle-skill">
+            <img src="./images/react-logo.png" alt="" />
+          </div>
+          <div class="circle-skill">
+            <img src="python-logo.png" alt="" />
+          </div>
+          <div class="circle-skill">
+            <img src="./images/dsa.png" alt="" />
+          </div>
+        </div> -->
+
+        <div class="heading"><h1>Tools</h1></div>
+
+        <div class="all-skills">
+          <!-- <div class="circle-skill">
+            <img src="./images/netbean.jpg" alt="" />
+          </div> -->
+          <div class="circle-skill">
+            <img src="chatgpt-logo.png" alt="chatgpt-logo" />
+          </div>
+          <div class="circle-skill">
+            <img src="git-logo.png" alt="git-logo" />
+          </div>
+          <div class="circle-skill">
+            <img src="vs-code.png" alt="vs-code" />
+          </div>
+          
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="container-4">
+        <div class="heading">
+          <h1>Projects</h1>
+        </div>
+        <div class="project-list">
+          <div class="work">
+            <img src="./Screenshot 2025-02-03 212551.png" alt="" />
+            <div class="layer">
+              <h3>CostCo Clone</h3>
+              
+              <p>
+                Skilled React Developer with experience in building dynamic and responsive web applications. Proficient in React.js, Redux, JavaScript, and modern frontend development practices. Strong understanding of component-based architecture, state management, and API integrations. Successfully developed a Costco clone, showcasing expertise in UI/UX design, performance optimization, and seamless user experiences. Passionate about creating scalable, maintainable, and efficient React applications. Continuously learning and adapting to new technologies to build innovative solutions.
+              </p>
+              <a target="_blank" href="https://github.com/Sanket054/costco_clone">
+                <i class="ri-external-link-line"></i>
+              </a>
+            </div>
+          </div> <!-- Close the first "work" div here -->
+    
+          <div class="work">
+            <img src="./Screenshot 2025-02-03 212928.png" alt="" />
+            <div class="layer">
+              <h3>BigBasket</h3>
+              
+              <p>
+                A fully responsive and interactive e-commerce web application built using HTML, CSS, and JavaScript. Designed and developed a user-friendly interface that replicates BigBasket’s online grocery shopping experience, including product listings, search functionality, cart management, and checkout process. Implemented dynamic UI elements and seamless navigation to enhance user engagement. Focused on clean code, responsive design, and cross-browser compatibility to ensure a smooth and efficient shopping experience.
+              </p>
+              <a target="_blank" href="https://github.com/Sanket054/bigbasket">
+                <i class="ri-external-link-line"></i>
+              </a>
+            </div>
+          </div>
+    
+          
+          </div>
+        </div>
+    
+        <a class="btn" href="#projects">See More</a>
+      </div>
+    </section>
+    
+    <section id="contact">
+      <div class="heading"><h1>Contact Us</h1></div>
+      <div class="contai-ner">
+        <div class="contactInfo">
+          <div class="box">
+            <div class="icon"><i class="ri-map-pin-line"></i></div>
+            <div class="text">
+              <h3>Address</h3>
+              <p>
+                Akola,<br />
+                Maharashtra<br />444005
+              </p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="icon"><i class="ri-phone-line"></i></div>
+            <div class="text">
+              <h3>Phone</h3>
+              <p>+91-7057888325</p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="icon"><i class="ri-mail-send-line"></i></div>
+            <div class="text">
+              <h3>Email</h3>
+              <p>gulhanesanket007@gmail.com</p>
+            </div>
+          </div>
+        </div>
+        <div class="contact-form">
+          <form name="submit-to-google-sheet">
+            <h2>Send Message</h2>
+            <div class="inputBox">
+              <input type="text" name="Name" id="" required="required" />
+              <span>Full Name</span>
+            </div>
+            <div class="inputBox">
+              <input type="text" name="Email" id="" required="required" />
+              <span>Email</span>
+            </div>
+            <div class="inputBox">
+              <textarea name="Message" required="required" id=""></textarea>
+              <span>Type Your Message...</span>
+            </div>
+            <div class="inputBox">
+              <input type="submit" name="" id="" value="Send" />
+              <span></span>
+            </div>
+          </form>
+          <span id="msg"></span>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
+
+<script>
+  const scriptURL =
+    "https://script.google.com/macros/s/AKfycbyd0g3R53jiMxIrxrVqQIMr2nLlq4cEWx_i6LTQhm-2Gvh_Xaccvf7eG3PYZIc2DlQ9/exec";
+  const form = document.forms["submit-to-google-sheet"];
+
+  const msg = document.getElementById("msg");
+
+  form.addEventListener("submit", (e) => {
+    e.preventDefault();
+    fetch(scriptURL, { method: "POST", body: new FormData(form) })
+      .then((response) => {
+        msg.innerHTML="Message sent Successfully!"
+        setTimeout(function(){
+          msg.innerHTML = ""
+        },1000)
+        form.reset()
+      })
+      .catch((error) => console.error("Error!", error.message));
+  });
+</script>
+<script src="script.js"></script>
